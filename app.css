@@ -267,6 +267,7 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20rem;
 }
 
 .nav-btn-container {
@@ -280,7 +281,7 @@ span {
   height: calc(100vh - var(--nav-height));
   min-height: 400px;
   text-align: center;
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
 }
 
 .hero-heading {
@@ -291,7 +292,14 @@ span {
   margin-bottom: 5rem;
 }
 
+.hero-section-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
 /* ------ FEATURE SECTION ------ */
+
 .feature-section {
   margin-bottom: 30rem;
 }
@@ -302,7 +310,18 @@ span {
 }
 
 .feature-headings {
+  margin-bottom: 3rem;
+}
+
+.feature-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10rem;
   margin-bottom: 2rem;
+}
+
+.feature-para {
+  align-self: center;
 }
 
 .feature-img {
@@ -336,6 +355,7 @@ span {
   flex-direction: column;
   align-items: center;
   gap: 1rem; 
+  margin-bottom: 2rem;
 }
 
 .footer-social-icons {
