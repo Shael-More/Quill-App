@@ -313,6 +313,7 @@ span {
   margin-bottom: 3rem;
 }
 
+/* grid added need to change when we learn about it */
 .feature-details {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -320,6 +321,7 @@ span {
   margin-bottom: 2rem;
 }
 
+/* self implemented */
 .feature-para {
   align-self: center;
 }
